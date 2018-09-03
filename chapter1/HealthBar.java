@@ -13,8 +13,8 @@ public class HealthBar {
 	//Search search for public space class name (Public HealthBar)]
 	//How many constructors can you have?
 	//As many as you'd want
-	public HealthBar(String name) {  
-		this.name = name;
+	public HealthBar(String namex) {  
+		this.name = namex;
 	}
 	public String getInfo() {
 		return this.name;
@@ -29,8 +29,11 @@ public class HealthBar {
 	System.err.println("Please provide one argument");
 	System.exit(95);
 	}
-	HealthBar myInstance = new HealthBar(args[2]);  
-	System.out.println(myInstance.getInfo()); //call it on an instance;
+	HealthBar myInstance = new HealthBar(args[0]);
+
+	//call it on an instance;
+  
+	System.out.println(myInstance.getInfo()); 
 	
 	}
 

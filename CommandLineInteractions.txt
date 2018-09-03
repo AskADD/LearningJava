@@ -1,0 +1,7 @@
+command line interactions:
+
+To check the exit code of the last command run on the shell:
+Windows: 
+echo %ERRORLEVEL% 
+On Unix: 
+echo $?
