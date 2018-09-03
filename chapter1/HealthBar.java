@@ -20,12 +20,18 @@ public class HealthBar {
 		return this.name;
 	}
 
-
+	//k
 	public static void main(String[] args) {
 	System.out.println("Hello World");
-	HealthBar myInstance = new HealthBar("Trader Joe's Raises the Bar");  //creating instance of HealthBar as type HealthBar.
-	System.out.println(myInstance.getInfo()); //call it on an instance;
 
+	//creating instance of HealthBar as type HealthBar by passing in command line arguments
+	if (args.length == 0) {
+	System.err.println("Please provide one argument");
+	System.exit(95);
+	}
+	HealthBar myInstance = new HealthBar(args[2]);  
+	System.out.println(myInstance.getInfo()); //call it on an instance;
+	
 	}
 
 
