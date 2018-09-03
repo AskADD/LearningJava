@@ -1,0 +1,37 @@
+git clone url clones whatever file that is found 
+in GitHub
+calling git will give a list of common commands
+
+
+
+
+
+javac compiles whatever code
+java runs the file
+
+cd .. goes up one directory
+dir searches the directory and returns
+whatever files it finds
+cd name of directory opens up a directory
+move name of file name of directory moves file
+to new directory
+git checkout -b "name": Creates new branch
+git push origin branchname 
+git config configures environment
+	--global user.name USERNAME
+git add Name of File to add a new file
+git commit -m and messages in double quotes to commit a file
+git diff --git a/(FILE NAME) b/(FILE NAME) gives differences of 
+a file name
+
+git status gives which files have bee ncommitted
+to move a file inside of git repository use: git mv NAME OF THE FILE |THE NAME OF THE DIRECTORY THAT IT SHOULD GO
+
+
+
+
+
+
+
+
+
